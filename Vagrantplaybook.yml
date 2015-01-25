@@ -1,0 +1,8 @@
+---
+
+- hosts: all
+  roles:
+  - role: jpic.archlinux
+    archlinux_mirrors:
+    - http://arch.yourlabs.org/
+  - role: .

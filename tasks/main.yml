@@ -1,0 +1,7 @@
+---
+
+- pacman: name=gnupg
+
+- copy:
+    src: ~/.gnupg/trustdb.gpg
+    dest: ~/.gnupg
